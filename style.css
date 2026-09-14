@@ -165,33 +165,9 @@ a { text-decoration: none; color: inherit; }
   padding: 0;
 }
 .service-category li {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 16px;
   padding: 10px 0;
   border-bottom: 1px solid #222;
   font-size: 15px;
-}
-.service-category .tag {
-  flex-shrink: 0;
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-  color: var(--dark);
-  background: var(--accent);
-  padding: 3px 8px;
-  border-radius: 3px;
-  white-space: nowrap;
-}
-.services-note {
-  max-width: 700px;
-  margin: 40px auto 0;
-  text-align: center;
-  color: var(--text-dim);
-  font-size: 14px;
-  line-height: 1.6;
 }
 
 /* ---------- CONTACT ---------- */

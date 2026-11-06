@@ -140,6 +140,9 @@ section[id], header[id] { scroll-margin-top: 72px; }
     repeating-linear-gradient(90deg, var(--accent-ink) 0 3px, transparent 3px 70px) bottom/100% 26px no-repeat,
     transparent; }
 .about-badge span { font-weight: 700; font-size: .95rem; }
+.about-photo { margin: 0; max-width: 360px; }
+.about-photo img { display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 24px; border: 4px solid var(--accent); }
+.about-photo figcaption { margin-top: 14px; font-weight: 700; font-size: .95rem; color: var(--accent-ink); }
 
 .btn { white-space: nowrap; }
 .btn .short { display: none; }
@@ -190,6 +193,7 @@ footer { border-top: 1px solid var(--line); padding: 34px 0 44px; color: var(--d
   .cards, .pricing { grid-template-columns: 1fr; }
   .steps { grid-template-columns: 1fr 1fr; }
   .about-badge { max-width: 280px; }
+  .about-photo { max-width: 280px; }
   .plan .who { min-height: 0; }
 }
 @media (max-width: 640px) {

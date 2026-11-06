@@ -82,6 +82,7 @@ section[id], header[id] { scroll-margin-top: 72px; }
 .section { padding: 84px 0; }
 .section h2 { font-size: clamp(2.2rem, 4.6vw, 3.4rem); margin-bottom: 16px; }
 .section-head { margin-bottom: 44px; }
+.section h2.yellow-title { color: var(--accent); }
 .cream { background: var(--cream); color: var(--cream-ink); }
 .cream .lead, .cream p { color: var(--cream-dim); }
 .cream .eyebrow { color: #8a6a00; }

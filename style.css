@@ -109,6 +109,7 @@ section[id], header[id] { scroll-margin-top: 72px; }
 .step p { margin: 0; font-size: .96rem; }
 
 .pricing { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; align-items: stretch; }
+.pricing.two { grid-template-columns: repeat(2, 1fr); max-width: 880px; margin-left: auto; margin-right: auto; }
 .plan { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 30px; display: flex; flex-direction: column; }
 .plan.main { border: 2px solid var(--accent); background: linear-gradient(180deg, rgba(255, 204, 51, .08), transparent 40%), var(--panel); }
 .plan .tag { align-self: flex-start; background: var(--accent); color: var(--accent-ink); font-family: var(--head); text-transform: uppercase; letter-spacing: .1em; font-weight: 700; padding: 4px 12px; border-radius: 999px; font-size: .95rem; margin-bottom: 14px; }
@@ -191,7 +192,7 @@ footer { border-top: 1px solid var(--line); padding: 34px 0 44px; color: var(--d
 @media (max-width: 920px) {
   .hero-grid, .about, .contact-grid { grid-template-columns: 1fr; }
   .serp { transform: none; max-width: 460px; }
-  .cards, .pricing { grid-template-columns: 1fr; }
+  .cards, .pricing, .pricing.two { grid-template-columns: 1fr; }
   .steps { grid-template-columns: 1fr 1fr; }
   .about-badge { max-width: 280px; }
   .about-photo { max-width: 280px; }
